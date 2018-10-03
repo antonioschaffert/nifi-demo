@@ -1,0 +1,3 @@
+SOMETHING BAD HAPPENED.
+The source node does not exist, which is invalid.
+In order to process invalid input, disable optimizations based on min/maxOccurs in component settings.

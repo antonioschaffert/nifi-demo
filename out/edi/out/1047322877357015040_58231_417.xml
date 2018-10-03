@@ -1,0 +1,228 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<X12 xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="file:///D:/EDI_417.xsd">
+	<ISA-InterchangeControlHeader>
+		<ISA01-AuthorizationInformationQualifier>04</ISA01-AuthorizationInformationQualifier>
+		<ISA02-AuthorizationInformation>SW417</ISA02-AuthorizationInformation>
+		<ISA03-SecurityInformationQualifier>00</ISA03-SecurityInformationQualifier>
+		<ISA04-SecurityInformation/>
+		<ISA05-InterchangeIdQualifier>02</ISA05-InterchangeIdQualifier>
+		<ISA06-InterchangeSenderId>NS TDCC</ISA06-InterchangeSenderId>
+		<ISA07-InterchangeIdQualifier>02</ISA07-InterchangeIdQualifier>
+		<ISA08-InterchangeReceiverId>CMMXLC</ISA08-InterchangeReceiverId>
+		<ISA09-InterchangeDate>2018-06-27</ISA09-InterchangeDate>
+		<ISA10-InterchangeTime>20:05:00</ISA10-InterchangeTime>
+		<ISA11-RepetitionSeparator>U</ISA11-RepetitionSeparator>
+		<ISA12-InterchangeControlVersionNumberCode>00703</ISA12-InterchangeControlVersionNumberCode>
+		<ISA13-InterchangeControlNumber>5677438</ISA13-InterchangeControlNumber>
+		<ISA14-AcknowledgmentRequestedCode>0</ISA14-AcknowledgmentRequestedCode>
+		<ISA15-InterchangeUsageIndicatorCode>P</ISA15-InterchangeUsageIndicatorCode>
+		<ISA16-ComponentElementSeparator>*</ISA16-ComponentElementSeparator>
+	</ISA-InterchangeControlHeader>
+	<GS-FunctionalGroupHeader>
+		<GS01-FunctionalIdentifierCode>WB</GS01-FunctionalIdentifierCode>
+		<GS02-ApplicationSendersCode>NS</GS02-ApplicationSendersCode>
+		<GS03-ApplicationReceiversCode>LC</GS03-ApplicationReceiversCode>
+		<GS04-Date>2018-06-27</GS04-Date>
+		<GS05-Time>20:05:00</GS05-Time>
+		<GS06-GroupControlNumber>3046</GS06-GroupControlNumber>
+		<GS07-ResponsibleAgencyCode>X</GS07-ResponsibleAgencyCode>
+		<GS08-VersionReleaseIndustryIdentifierCode>007030</GS08-VersionReleaseIndustryIdentifierCode>
+	</GS-FunctionalGroupHeader>
+	<TS_417>
+		<ST-TransactionSetHeader>
+			<ST01-TransactionSetIdentifierCode>417</ST01-TransactionSetIdentifierCode>
+			<ST02-TransactionSetControlNumber>030460001</ST02-TransactionSetControlNumber>
+		</ST-TransactionSetHeader>
+		<BX-GeneralShipmentInformation>
+			<BX01-TransactionSetPurposeCode>00</BX01-TransactionSetPurposeCode>
+			<BX02-TransportationMethodTypeCode>R</BX02-TransportationMethodTypeCode>
+			<BX03-ShipmentMethodOfPaymentCode>11</BX03-ShipmentMethodOfPaymentCode>
+			<BX05-StandardCarrierAlphaCode>NS</BX05-StandardCarrierAlphaCode>
+			<BX06-WeightUnitCode>L</BX06-WeightUnitCode>
+			<BX07-ShipmentQualifier>B</BX07-ShipmentQualifier>
+		</BX-GeneralShipmentInformation>
+		<BNX-RailShipmentInformation>
+			<BNX01-ShipmentWeightCode>A</BNX01-ShipmentWeightCode>
+			<BNX03-BillingCode>S</BNX03-BillingCode>
+		</BNX-RailShipmentInformation>
+		<N9-ExtendedReferenceInformation>
+			<N901-ReferenceIdentificationQualifier>BM</N901-ReferenceIdentificationQualifier>
+			<N902-ReferenceIdentification>N/A</N902-ReferenceIdentification>
+			<N904-Date>2018-06-27</N904-Date>
+			<N905-Time>17:31:00</N905-Time>
+		</N9-ExtendedReferenceInformation>
+		<N9-ExtendedReferenceInformation>
+			<N901-ReferenceIdentificationQualifier>CN</N901-ReferenceIdentificationQualifier>
+			<N902-ReferenceIdentification>6244278427-03</N902-ReferenceIdentification>
+		</N9-ExtendedReferenceInformation>
+		<N9-ExtendedReferenceInformation>
+			<N901-ReferenceIdentificationQualifier>SO</N901-ReferenceIdentificationQualifier>
+			<N902-ReferenceIdentification>N/A</N902-ReferenceIdentification>
+		</N9-ExtendedReferenceInformation>
+		<DTM-DateTimeReference>
+			<DTM01-DateTimeQualifier>168</DTM01-DateTimeQualifier>
+			<DTM02-Date>2018-06-21</DTM02-Date>
+			<DTM03-Time>10:48:00</DTM03-Time>
+		</DTM-DateTimeReference>
+		<LOOP_ID_N7>
+			<N7-EquipmentDetails>
+				<N701-EquipmentInitial>TILX</N701-EquipmentInitial>
+				<N702-EquipmentNumber>264361</N702-EquipmentNumber>
+				<N703-Weight>166760</N703-Weight>
+				<N704-WeightQualifier>E</N704-WeightQualifier>
+				<N705-TareWeight>73500</N705-TareWeight>
+				<N711-EquipmentDescriptionCode>RR</N711-EquipmentDescriptionCode>
+				<N715-EquipmentLength>7000</N715-EquipmentLength>
+				<N716-TareQualifierCode>A</N716-TareQualifierCode>
+			</N7-EquipmentDetails>
+		</LOOP_ID_N7>
+		<N8-WaybillReference>
+			<N801-WaybillNumber>795348</N801-WaybillNumber>
+			<N802-Date>2018-06-27</N802-Date>
+		</N8-WaybillReference>
+		<F9-OriginStation>
+			<F901-FreightStationAccountingCode>61550</F901-FreightStationAccountingCode>
+			<F902-CityName>CHESTER (LC)</F902-CityName>
+			<F903-StateOrProvinceCode>SC</F903-StateOrProvinceCode>
+		</F9-OriginStation>
+		<D9-DestinationStation>
+			<D901-FreightStationAccountingCode>39209</D901-FreightStationAccountingCode>
+			<D902-CityName>SOUTH GATE</D902-CityName>
+			<D903-StateOrProvinceCode>CA</D903-StateOrProvinceCode>
+		</D9-DestinationStation>
+		<LOOP_ID_N1>
+			<N1-PartyIdentification>
+				<N101-EntityIdentifierCode>SH</N101-EntityIdentifierCode>
+				<N102-Name>INGEVITY CORP</N102-Name>
+				<N103-IdentificationCodeQualifier>C5</N103-IdentificationCodeQualifier>
+				<N104-IdentificationCode>0799294050000</N104-IdentificationCode>
+			</N1-PartyIdentification>
+			<N3-PartyLocation>
+				<N301-AddressInformation>5255 VIRGINIA AVE</N301-AddressInformation>
+			</N3-PartyLocation>
+			<N4-GeographicLocation>
+				<N401-CityName>NORTH CHARLESTON</N401-CityName>
+				<N402-StateOrProvinceCode>SC</N402-StateOrProvinceCode>
+				<N403-PostalCode>29406</N403-PostalCode>
+			</N4-GeographicLocation>
+		</LOOP_ID_N1>
+		<LOOP_ID_N1>
+			<N1-PartyIdentification>
+				<N101-EntityIdentifierCode>CN</N101-EntityIdentifierCode>
+				<N102-Name>INGEVITY CORP</N102-Name>
+			</N1-PartyIdentification>
+			<N3-PartyLocation>
+				<N301-AddressInformation>4570 ARDINE ST</N301-AddressInformation>
+			</N3-PartyLocation>
+			<N4-GeographicLocation>
+				<N401-CityName>SOUTH GATE</N401-CityName>
+				<N402-StateOrProvinceCode>CA</N402-StateOrProvinceCode>
+			</N4-GeographicLocation>
+		</LOOP_ID_N1>
+		<LOOP_ID_N1>
+			<N1-PartyIdentification>
+				<N101-EntityIdentifierCode>11</N101-EntityIdentifierCode>
+				<N102-Name>INGEVITY CORP</N102-Name>
+				<N103-IdentificationCodeQualifier>C5</N103-IdentificationCodeQualifier>
+				<N104-IdentificationCode>0801276920000</N104-IdentificationCode>
+			</N1-PartyIdentification>
+			<N3-PartyLocation>
+				<N301-AddressInformation>ATTN FREIGHT BILL AUDIT</N301-AddressInformation>
+			</N3-PartyLocation>
+			<N4-GeographicLocation>
+				<N401-CityName>NORTH CHARLESTON</N401-CityName>
+				<N402-StateOrProvinceCode>SC</N402-StateOrProvinceCode>
+				<N403-PostalCode>294058537</N403-PostalCode>
+			</N4-GeographicLocation>
+		</LOOP_ID_N1>
+		<R2-RouteInformation>
+			<R201-StandardCarrierAlphaCode>NS</R201-StandardCarrierAlphaCode>
+			<R202-RoutingSequenceCode>R</R202-RoutingSequenceCode>
+			<R203-CityName>NEWOR</R203-CityName>
+		</R2-RouteInformation>
+		<R2-RouteInformation>
+			<R201-StandardCarrierAlphaCode>BNSF</R201-StandardCarrierAlphaCode>
+			<R202-RoutingSequenceCode>1</R202-RoutingSequenceCode>
+		</R2-RouteInformation>
+		<LOOP_ID_LX>
+			<LX-TransactionSetLineNumber>
+				<LX01-AssignedNumber>1</LX01-AssignedNumber>
+			</LX-TransactionSetLineNumber>
+			<L5-DescriptionMarksAndNumbers>
+				<L501-LadingLineItemNumber>1</L501-LadingLineItemNumber>
+				<L502-LadingDescription>TOXIC LIQUIDS,</L502-LadingDescription>
+				<L503-CommodityCode>4925275</L503-CommodityCode>
+				<L504-CommodityCodeQualifier>T</L504-CommodityCodeQualifier>
+			</L5-DescriptionMarksAndNumbers>
+			<L5-DescriptionMarksAndNumbers>
+				<L501-LadingLineItemNumber>1</L501-LadingLineItemNumber>
+				<L502-LadingDescription>TILX 264361 GAL CP= 23620</L502-LadingDescription>
+			</L5-DescriptionMarksAndNumbers>
+			<L5-DescriptionMarksAndNumbers>
+				<L501-LadingLineItemNumber>1</L501-LadingLineItemNumber>
+				<L502-LadingDescription>ENDORSED AS HAZARDOUS MAT</L502-LadingDescription>
+			</L5-DescriptionMarksAndNumbers>
+			<LOOP_ID_LX_L0>
+				<L0-LineItem-QuantityAndWeight>
+					<L001-LadingLineItemNumber>1</L001-LadingLineItemNumber>
+					<L004-Weight>166760</L004-Weight>
+					<L005-WeightQualifier>E</L005-WeightQualifier>
+					<L008-LadingQuantity>1</L008-LadingQuantity>
+					<L009-PackagingFormCode>TNK</L009-PackagingFormCode>
+				</L0-LineItem-QuantityAndWeight>
+			</LOOP_ID_LX_L0>
+		</LOOP_ID_LX>
+		<LS-LoopHeader>
+			<LS01-LoopIdentifierCode>7030</LS01-LoopIdentifierCode>
+		</LS-LoopHeader>
+		<LOOP_ID_LH1>
+			<LH1-HazardousIdentificationInformation>
+				<LH101-UnitOrBasisForMeasurementCode>TK</LH101-UnitOrBasisForMeasurementCode>
+				<LH102-LadingQuantity>1</LH102-LadingQuantity>
+				<LH103-UnNaIdentificationCode>UN2810</LH103-UnNaIdentificationCode>
+				<LH105-CommodityCode>4925275</LH105-CommodityCode>
+				<LH106-UnitOrBasisForMeasurementCode>LB</LH106-UnitOrBasisForMeasurementCode>
+				<LH107-Quantity>178000</LH107-Quantity>
+				<LH110-PackingGroupCode>III</LH110-PackingGroupCode>
+			</LH1-HazardousIdentificationInformation>
+			<LH2-HazardousClassificationInformation>
+				<LH201-HazardousClassificationCode>6.1</LH201-HazardousClassificationCode>
+				<LH202-HazardousClassQualifier>P</LH202-HazardousClassQualifier>
+			</LH2-HazardousClassificationInformation>
+			<LH3-HazardousMaterialShippingNameInformation>
+				<LH301-HazardousMaterialShippingName>TOXIC LIQUIDS, ORGANIC,</LH301-HazardousMaterialShippingName>
+				<LH302-HazardousMaterialShippingNameQualifier>D</LH302-HazardousMaterialShippingNameQualifier>
+			</LH3-HazardousMaterialShippingNameInformation>
+			<LH3-HazardousMaterialShippingNameInformation>
+				<LH301-HazardousMaterialShippingName>   N.O.S.</LH301-HazardousMaterialShippingName>
+				<LH302-HazardousMaterialShippingNameQualifier>D</LH302-HazardousMaterialShippingNameQualifier>
+			</LH3-HazardousMaterialShippingNameInformation>
+			<LFH-Free-FormHazardousMaterialInformation>
+				<LFH01-HazardousMaterialShipmentInformationQualifier>TEC</LFH01-HazardousMaterialShipmentInformationQualifier>
+				<LFH02-HazardousMaterialShipmentInformation>(FATTY AMINE DERIVATIVES)</LFH02-HazardousMaterialShipmentInformation>
+			</LFH-Free-FormHazardousMaterialInformation>
+		</LOOP_ID_LH1>
+		<LE-LoopTrailer>
+			<LE01-LoopIdentifierCode>7030</LE01-LoopIdentifierCode>
+		</LE-LoopTrailer>
+		<PER-AdministrativeCommunicationsContact>
+			<PER01-ContactFunctionCode>HM</PER01-ContactFunctionCode>
+			<PER02-Name>CHEMTREC/INGEVITY</PER02-Name>
+			<PER03-CommunicationNumberQualifier>TE</PER03-CommunicationNumberQualifier>
+			<PER04-CommunicationNumber>8004249300</PER04-CommunicationNumber>
+		</PER-AdministrativeCommunicationsContact>
+		<SE-TransactionSetTrailer>
+			<SE01-NumberOfIncludedSegments>36</SE01-NumberOfIncludedSegments>
+			<SE02-TransactionSetControlNumber>030460001</SE02-TransactionSetControlNumber>
+		</SE-TransactionSetTrailer>
+	</TS_417>
+	<GE-FunctionalGroupTrailer>
+		<GE01-NumberOfTransactionSetsIncluded>1</GE01-NumberOfTransactionSetsIncluded>
+		<GE02-GroupControlNumber>3046</GE02-GroupControlNumber>
+	</GE-FunctionalGroupTrailer>
+	<IEA-InterchangeControlTrailer>
+		<IEA01-NumberOfIncludedFunctionalGroups>1</IEA01-NumberOfIncludedFunctionalGroups>
+		<IEA02-InterchangeControlNumber>5677438</IEA02-InterchangeControlNumber>
+	</IEA-InterchangeControlTrailer>
+</X12>
+
